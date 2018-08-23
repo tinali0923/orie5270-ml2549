@@ -1,5 +1,9 @@
 class Tree(object):
     def __init__(self, root):
+        """
+        To initialize an instance
+        :param root: a node belong to the class Node(). This is the root of the tree.
+        """
         self.root = root
 
     def get_value_root(self):
@@ -13,6 +17,10 @@ class Tree(object):
             return None
 
     def print_tree(self):
+        """
+        This is the print tree function, the output is the printed tree as professor suggested.
+        :return: a string that when printed, shows the required format
+        """
         height = self.root.get_height()
         res = ["|"] * height
         for i in range(height):
@@ -40,11 +48,21 @@ class Tree(object):
 
 class Node(object):
     def __init__(self, value, left, right):
+        """
+        This is to initialize an instance of node class.
+        :param value: the value of the node, int
+        :param left: the left node, belong to the Node() class.
+        :param right:the right node, belong to the Node() class.
+        """
         self.value = value
         self.right = right
         self.left = left
 
     def get_height(self):
+        """
+        This is to get height of the tree, which is defined by the length of the longest chain in the tree.
+        :return: an int which is the number of nodes in the longest chain.
+        """
         if self.value is None:
             return 0
         else:
