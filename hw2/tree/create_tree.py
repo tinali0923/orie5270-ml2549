@@ -59,4 +59,3 @@ class Node(object):
                 right = 0
 
             return 1 + max(left, right)
-
