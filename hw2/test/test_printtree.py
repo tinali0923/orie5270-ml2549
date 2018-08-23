@@ -3,7 +3,7 @@ from tree.tree import Tree, Node
 import unittest
 
 
-class TestPringTree(unittest.TestCase):
+class TestPrinttree(unittest.TestCase):
     def test_printtree(self):
         b = Node(1, None, None)
         c = Node(2, b, None)
