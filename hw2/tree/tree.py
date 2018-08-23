@@ -60,12 +60,3 @@ class Node(object):
 
             return 1 + max(left, right)
 
-
-if __name__ == "__main__":
-    b = Node(1, None, None)
-    c = Node(2, b, None)
-    d = Node(5, c, None)
-    e = Node(7, None, d)
-    a = Tree(e)
-
-    print a.print_tree()
