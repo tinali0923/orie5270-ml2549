@@ -13,6 +13,6 @@ class TestPrinttree(unittest.TestCase):
 
         res = [['|', '|', '|', 7, '|', '|', '|'], ['|', '|', '|', '|', 5, '|', '|'], ['|', '|', '|', 2, '|', '|', '|'],
                ['|', '|', 1, '|', '|', '|', '|']]
-        for i in range(3):
+        for i in range(4):
             res[i] = ''.join(list(map(str, res[i])))
         assert '\n'.join(res) == a.print_tree()
