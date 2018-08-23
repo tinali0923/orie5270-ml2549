@@ -48,12 +48,12 @@ class Node(object):
         if self.value is None:
             return 0
         else:
-            if self.left != None:
+            if self.left is not None:
                 left = self.left.get_height()
             else:
                 left = 0
 
-            if self.right != None:
+            if self.right is not None:
                 right = self.right.get_height()
             else:
                 right = 0
