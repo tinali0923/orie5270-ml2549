@@ -1,4 +1,4 @@
-from tree.tree import Tree, Node
+from tree.create_tree import Tree, Node
 
 import unittest
 
