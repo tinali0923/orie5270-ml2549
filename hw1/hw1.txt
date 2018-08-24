@@ -1,0 +1,32 @@
+using aws to create an instance:
+        what:
+        1) cloud computing enables us to have access to fast computing power by renting
+        2) when we are choosing instance, we need to weigh the trade off between computing power (cpu, memory, etc) and money that we pay.
+        3) if we choose instances that have more than 1 cpu, we will be able to perform parallel computing
+        why:
+        1) we can utilise aws cloud computing service to access computing power that isn't available at local computer.
+        
+git hub commands:
+        what:
+        1) We learned git commands to perform specific actions. For example, git clone, to create a folder, branch, to pull the branch, 
+        to add file, commit and push the branch.
+        2) We learned git's basic functionalities: allowing collaboration, easy modification, etc.
+        why:
+        1) github is an easy tool to perform collaborative coding and code modification, since it creates branches which record different
+        versions of earlier changes, and allow user to review these change before merging the change to the final master branch.
+vim:
+        what:
+        1) We learned how to use vim to edit: vim, press 'i' for insert, press 'esc' and then type ':wq' for saving the file and exit.
+        why:
+        vim is a easy editing tool that is widely used in terminal interface.
+        
+linux command system and the unix shell:
+        what:
+        1) we learned basic command to navigate us in linux terminal and do basic operations: pwd, mkdir, touch, vim, cd, etc
+        2) for unix shell we learned we can create a nano command that takes parameters and show the bottom lines of the top lines of the 
+        file of interest. e.g.head -n "$2" "$1" | tail -n "$3", with "$2" representing parameter 2.
+        why:
+        1) the command system is especially useful if there isn't a userface available. And if familiar with the commands, using commands to 
+        navigate can be very fast.
+        2) we use shell because it can potentially realise many things using pure terminal can't do, e.g. cluster computing. Shell is also a
+        receipe for conducting complicated directions using simple commands.
